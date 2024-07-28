@@ -27,7 +27,7 @@ spec:
   datacenterRef:
     kind: CloudStackDatacenterConfig
     name: release-i-0a406-97a023b
-  eksaVersion: v0.20.2-dev+build.7
+  eksaVersion: v0.20.2-dev+build.8
   externalEtcdConfiguration:
     count: 1
     machineGroupRef:
@@ -44,7 +44,7 @@ spec:
   managementCluster:
     name: release-i-0a406-97a023b
   workerNodeGroupConfigurations:
-  - count: 1
+  - count: 3
     machineGroupRef:
       kind: CloudStackMachineConfig
       name: release-i-0a406-97a023b
